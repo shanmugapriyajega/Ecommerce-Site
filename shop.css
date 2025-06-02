@@ -735,6 +735,9 @@ body {
 .aboutpara {
   width: 80%;
 }
+.about-product {
+  display: none;
+}
 .container-content span {
   color: #999999;
   text-decoration: line-through;
@@ -1293,6 +1296,10 @@ body {
   color: #6f6f6f;
   letter-spacing: 0.5px;
 }
+.mbl
+{
+  display: none;
+}
 @media (max-width: 1200px) {
   ::-webkit-scrollbar {
     display: none;
@@ -1478,7 +1485,7 @@ body {
     display: none;
   }
   .socialmedia {
-    width: 62%;
+    width: 73%;
     height: 5%;
     /* display: flex; */
   }
@@ -1500,22 +1507,13 @@ body {
     font-size: 10px;
     justify-content: flex-start;
   }
-  /* .navbar
-  {
-    width: 100%;
-    height: 6%;
-  }
-  .img{
-    width: 50%;
-    height: 100%;
-    justify-content: start;
-  } */
+
   .img img {
     width: 130px;
     height: 40px;
   }
   .navbar {
-    width: 70%;
+    width: 85%;
     justify-content: flex-start;
   }
   .navicons {
@@ -1523,12 +1521,12 @@ body {
   }
   .list-icon {
     display: flex;
-    align-items: center;
+    align-items: flex-end;
     /* width: 50%; */
   }
 
   .backgroundimg {
-    width: 62%;
+    width: 85%;
     height: 30%;
     background-size: 145% 75%;
     background-position: right;
@@ -1561,7 +1559,7 @@ body {
     padding: 0;
   }
   .grid {
-    height: 70%;
+    height: 85%;
   }
   .subgrid {
     width: 96%;
@@ -1571,7 +1569,7 @@ body {
   }
   .grid1img img {
     height: 250px;
-    width: 250px;
+    width: 280px;
   }
   .mbl-none {
     display: none;
@@ -1580,8 +1578,7 @@ body {
     width: 35%;
     align-items: center;
   }
-  .subContent1
-  {
+  .subContent1 {
     width: 85%;
   }
   .subContent1 h4 {
@@ -1590,15 +1587,13 @@ body {
   .subContent1 h2 {
     font-size: 32px;
   }
-  .subContent1 button
-  {
+  .subContent1 button {
     width: 30%;
   }
   .subContent h4 {
     font-size: 16px;
   }
-  .subContent button
-  {
+  .subContent button {
     width: 63%;
   }
   .subContent h2 {
@@ -1608,7 +1603,7 @@ body {
     left: 10px;
   }
   .content {
-    width: 60%;
+    width: 70%;
     height: 5%;
   }
 
@@ -1630,85 +1625,254 @@ body {
   .imgbanner1 p {
     font-size: 13px;
   }
-  .backgroundproduct
-  {
-    width: 60%;
+  .backgroundproduct {
+    width: 80%;
   }
   .productimg {
     width: 100%;
-    gap: 20px;
-    grid-template-columns: 110px 110px;
+    gap: 10px;
+    grid-template-columns: 140px 140px;
     grid-template-rows: 220px 220px 220px;
   }
-  .productimg1
-  {
-    width: 100%;
+  .productimg1 {
+    width: 85%;
+  }
+  .sale {
+    width: 25%;
+    font-size: 9px;
+  }
+  .productimg-icon {
+    width: 90%;
+    gap: 10px;
+    font-size: 10px;
+  }
+  .productimg-icon-sale {
+    width: 90%;
+    gap: 10px;
+    font-size: 10px;
   }
   .text1 {
     position: absolute;
-    right: 50px;
+    right: 10px;
+    width: 95%;
   }
-  .labeldiv input
-  {
-     height: 25px;
-     width: 30px;
+  .labeldiv input {
+    height: 25px;
+    width: 30px;
   }
-  .labeldiv button 
-  {
+  .labeldiv button {
     width: 40px;
     height: 25px;
   }
   .bentobackground {
-    height: 100%;
+    height: auto;
+    width: 75%;
+    margin-top: 30px;
   }
   .subbento {
     display: flex;
     flex-direction: column;
   }
+
   .bentoimg1 {
-    width: 70%;
+    width: 100%;
   }
   .bentoimg2 {
-    width: 70%;
+    width: 100%;
   }
   .bentoimg3 {
-    width: 70%;
+    width: 100%;
   }
   .bentoimg4 {
-    width: 70%;
+    width: 100%;
+  }
+  .words {
+    top: 10px;
   }
   .words button {
-    width: 40%;
+    width: 45%;
   }
   .container {
-    margin-top: 20px;
+    width: 75%;
+    height: 100%;
   }
   .containerimg {
-    height: 75%;
+    height: 70%;
+    width: 100%;
+    flex-direction: column;
+    align-items: flex-start;
   }
   .containerimg img {
-    height: 30%;
-    width: 30%;
+    height: 40%;
+    width: 40%;
+  }
+  .container-content {
+    width: 100%;
+    height: 50%;
+  }
+  .container-content h6 {
+    margin-bottom: 0;
+  }
+  .container-content h4 {
+    margin-left: 0;
+    margin-top: 0;
+  }
+  .aboutpara {
+    display: none;
+  }
+  .about-product {
+    display: block;
   }
   .about {
-    width: 61%;
+    width: 70%;
+    height: 100%;
+    margin-left: 10px;
+  }
+  .sub-content {
+    width: 100%;
+    height: 100%;
+    /* margin-top: 0; */
   }
   .sub-img {
-    height: 35%;
+    height: 30%;
+    margin-top: 20px;
   }
+  .sub-img img {
+    width: 95%;
+    height: 88%;
+  }
+  .mark-para {
+    margin-left: 10px;
+  }
+  .sub-text {
+    height: 60%;
+    width: 96%;
+  }
+  .collection-bg {
+    width: 66%;
+  }
+  .collection-text h4 {
+    font-size: 16px;
+  }
+  .collection-text h2 {
+    font-size: 28px;
+  }
+  .collection-img {
+    width: 75%;
+    height: 32%;
+  }
+  .subcollection-img {
+    grid-template-columns: 140px 140px;
+    gap: 10px;
+  }
+  .collection-icon-sale {
+    width: 75%;
+    gap: 8px;
+    font-size: 10px;
+    top: 70px;
+    left: 10px;
+  }
+  .mblview-none {
+    display: none;
+  }
+ 
   .columnbanner {
-    width: 65%;
-    height: 25%;
+    height: 35%;
   }
   .subcolumnbanner {
     display: flex;
     flex-direction: column;
-    row-gap: 20px;
+    row-gap: 10px;
   }
-  .footer {
-    height: 41%;
+  .column-div {
+    flex-direction: column;
+    gap: 0;
+    /* margin-right: 100px; */
+    align-items: flex-start;
+    border: none;
+  }
+  .column-div-img {
+    align-items: center;
+  }
+  .column-div-img img {
+    width: 30px;
+    height: 30px;
+  }
+  .blog {
+    width: 70%;
+  }
+  .sub-blog h4 {
+    font-size: 16px;
+  }
+  .sub-blog h2 {
+    font-size: 24px;
+  }
+  .grid-background {
+    width: 75%;
+  }
+  .subgrid-bg {
+    grid-template-columns: 300px;
+  }
+  .subgrid-img {
+    width: 90%;
+    height: 100%;
+  }
+   .footer {
+    height: 60%;
+    width: 100%;
+    margin-top: 20px;
   }
   .footer-content {
     flex-direction: column;
+    height: 95%;
+
+  }
+  .googleplay
+  {
+    width: 60%;
+  }
+  .googleplay h4
+  {
+line-height: normal;
+  }
+   .googleplay p
+  {
+line-height: normal;
+  }
+   .googleplay input
+  {
+margin-top: 10px;
+  }
+  .googleplay img
+  {
+margin-top: 10px;
+  }
+  .div2{
+    width: 75%;
+    margin-top: 10px;
+  }
+  .div2 p
+  {
+    line-height: normal;
+    margin-bottom: 0;
+  }
+  .div2 img
+  {
+    margin-bottom: 0;
+  }
+  .footer-icon
+  {
+    gap: 5px;
+    margin-bottom: 10px;
+  }
+  .contact
+  {
+    width: 70%;
+    margin-bottom: 20px;
+  }
+  .mbl{
+    display: block;
+    font-size: 14px;
+    color: #000000;
   }
 }
