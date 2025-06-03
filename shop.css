@@ -1613,6 +1613,7 @@ body {
   }
   .productimg1 {
     width: 85%;
+    margin-left: 10px;
   }
   .sale {
     width: 25%;
@@ -1664,9 +1665,10 @@ body {
     height: auto;
     width: 62%;
     margin-top: 30px;
-    margin-left: 20px;
+    /* margin-left: 20px; */
   }
   .subbento {
+    width: 90%;
     display: flex;
     flex-direction: column;
   }
