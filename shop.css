@@ -1584,7 +1584,7 @@ body {
   }
   
   .content {
-    width: 75%;
+    width: 100%;
     height: 5%;
   }
 
@@ -1596,14 +1596,14 @@ body {
   }
   .imgbanner {
     flex-direction: column;
-    width: 62%;
+    width: 100%;
     gap: 2px;
   }
   .imgbanner1 p {
     font-size: 13px;
   }
   .backgroundproduct {
-    width: 62%;
+    width: 100%;
   }
   .productimg {
     width: 100%;
