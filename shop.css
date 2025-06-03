@@ -1296,8 +1296,7 @@ body {
   color: #6f6f6f;
   letter-spacing: 0.5px;
 }
-.mbl
-{
+.mbl {
   display: none;
 }
 @media (max-width: 1200px) {
@@ -1479,7 +1478,7 @@ body {
     height: 30%;
     width: 100%;
   }
-  .footer-icon{
+  .footer-icon {
     gap: 5px;
   }
 }
@@ -1519,8 +1518,7 @@ body {
     width: 100%;
     justify-content: flex-start;
   }
-  .subnavbar
-  {
+  .subnavbar {
     width: 100%;
   }
   .navicons {
@@ -1570,7 +1568,7 @@ body {
     height: 85%;
     width: 100%;
   }
-  
+
   .grid1img {
     height: 95%;
     width: 93%;
@@ -1582,16 +1580,15 @@ body {
   .mbl-none {
     display: none;
   }
-  
+
   .content {
     width: 100%;
     height: 5%;
     margin-bottom: 10px;
   }
-.subcontent
-{
-  margin-top: 10px;
-}
+  .subcontent {
+    margin-top: 10px;
+  }
   .subtext h4 {
     font-size: 16px;
   }
@@ -1639,18 +1636,15 @@ body {
     right: 6px;
     width: 95%;
   }
-  .text1 h4
-  {
+  .text1 h4 {
     line-height: normal;
     font-size: 14px;
   }
-  .text1 h2
-  {
+  .text1 h2 {
     line-height: normal;
     font-size: 28px;
   }
-  .text1 button
-  {
+  .text1 button {
     width: 40%;
   }
   .labeldiv input {
@@ -1661,8 +1655,7 @@ body {
     width: 40px;
     height: 25px;
   }
-  .grid-text
-  {
+  .grid-text {
     bottom: 10px;
   }
   .bentobackground {
@@ -1699,6 +1692,9 @@ body {
     width: 100%;
     height: 100%;
   }
+  .subcontainer {
+    height: 100%;
+  }
   .containerimg {
     height: 70%;
     width: 100%;
@@ -1720,10 +1716,10 @@ body {
     margin-left: 0;
     margin-top: 0;
   }
-  .column-content
+  /* .column-content
   {
     height: 50%;
-  }
+  } */
   .aboutpara {
     display: none;
   }
@@ -1732,7 +1728,7 @@ body {
   }
   .about {
     width: 100%;
-    height: 85%;
+    height: 100%;
     margin-left: 10px;
   }
   .sub-content {
@@ -1745,10 +1741,11 @@ body {
     margin-top: 20px;
     margin-left: 20px;
   }
-  /* .sub-img img {
-    width: 76%;
-    height: 79%;
-  } */
+  .sub-img img {
+    width: 68%;
+    height: 94%;
+    /* margin-top: 20px; */
+  }
   .mark-para {
     margin-left: 10px;
   }
@@ -1785,7 +1782,7 @@ body {
   .mblview-none {
     display: none;
   }
- 
+
   .columnbanner {
     height: 35%;
     width: 100%;
@@ -1810,7 +1807,7 @@ body {
     height: 30px;
   }
   .blog {
-    width: 62%;
+    width: 100%;
   }
   .sub-blog h4 {
     font-size: 16px;
@@ -1819,7 +1816,7 @@ body {
     font-size: 24px;
   }
   .grid-background {
-    width: 62%;
+    width: 100%;
   }
   .subgrid-bg {
     grid-template-columns: 350px;
@@ -1829,65 +1826,54 @@ body {
     height: 100%;
     /* margin-left: 10px; */
   }
-  .blog-text p
-  {
+  .blog-text p {
     margin-top: 0;
   }
-   .footer {
+  .footer {
     height: 80%;
-    width: 62%;
+    width: 100%;
     margin-top: 20px;
   }
   .footer-content {
     flex-direction: column;
     height: 95%;
-
   }
-  .googleplay
-  {
+  .googleplay {
     width: 95%;
   }
-  .googleplay h4
-  {
-line-height: normal;
+  .googleplay h4 {
+    line-height: normal;
   }
-   .googleplay p
-  {
-line-height: normal;
+  .googleplay p {
+    line-height: normal;
   }
-   .googleplay input
-  {
-margin-top: 10px;
+  .googleplay input {
+    margin-top: 10px;
   }
-  .googleplay img
-  {
-margin-top: 10px;
-width: 100px;
+  .googleplay img {
+    margin-top: 10px;
+    width: 100px;
   }
-  .div2{
+  .div2 {
     width: 95%;
     margin-top: 10px;
   }
-  .div2 p
-  {
+  .div2 p {
     line-height: normal;
     margin-bottom: 0;
   }
-  .div2 img
-  {
+  .div2 img {
     margin-bottom: 0;
   }
-  .footer-icon
-  {
+  .footer-icon {
     gap: 5px;
     margin-bottom: 10px;
   }
-  .contact
-  {
+  .contact {
     width: 95%;
     margin-bottom: 20px;
   }
-  .mbl{
+  .mbl {
     display: block;
     font-size: 14px;
     color: #000000;
