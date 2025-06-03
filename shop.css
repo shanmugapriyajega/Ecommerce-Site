@@ -1488,7 +1488,7 @@ body {
     display: none;
   }
   .socialmedia {
-    width: 100%;
+    width: 88%;
     height: 5%;
     /* display: flex; */
   }
@@ -1516,7 +1516,7 @@ body {
     height: 40px;
   }
   .navbar {
-    width: 100%;
+    width: 88%;
     justify-content: flex-start;
   }
   .subnavbar
@@ -1533,7 +1533,7 @@ body {
   }
 
   .backgroundimg {
-    width: 100%;
+    width: 88%;
     height: 30%;
     background-size: 145% 75%;
     background-position: right;
@@ -1568,22 +1568,23 @@ body {
   }
   .grid {
     height: 85%;
-    width: 95%;
+    width: 88%;
   }
   
   .grid1img {
     height: 95%;
+    width: 93%;
   }
   .grid1img img {
     height: 250px;
-    width: 92%;
+    width: 100%;
   }
   .mbl-none {
     display: none;
   }
   
   .content {
-    width: 95%;
+    width: 88%;
     height: 5%;
   }
 
@@ -1595,7 +1596,7 @@ body {
   }
   .imgbanner {
     flex-direction: column;
-    width: 95%;
+    width: 88%;
     gap: 2px;
   }
   .imgbanner1 p {
@@ -1608,7 +1609,7 @@ body {
     width: 100%;
     gap: 10px;
     grid-template-columns: 160px 160px;
-    grid-template-rows: 220px 220px 220px;
+    grid-template-rows: 250px 250px 250px;
   }
   .productimg1 {
     width: 85%;
@@ -1630,8 +1631,8 @@ body {
   .text1 {
     position: absolute;
     top: 18px;
-    right: 32px;
-    width: 85%;
+    right: 6px;
+    width: 95%;
   }
   .text1 h4
   {
@@ -1661,7 +1662,7 @@ body {
   }
   .bentobackground {
     height: auto;
-    width: 95%;
+    width: 88%;
     margin-top: 30px;
   }
   .subbento {
