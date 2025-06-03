@@ -1488,7 +1488,7 @@ body {
     display: none;
   }
   .socialmedia {
-    width: 73%;
+    width: 100%;
     height: 5%;
     /* display: flex; */
   }
@@ -1516,8 +1516,12 @@ body {
     height: 40px;
   }
   .navbar {
-    width: 85%;
+    width: 100%;
     justify-content: flex-start;
+  }
+  .subnavbar
+  {
+    width: 100%;
   }
   .navicons {
     display: none;
@@ -1529,14 +1533,14 @@ body {
   }
 
   .backgroundimg {
-    width: 72%;
+    width: 100%;
     height: 30%;
     background-size: 145% 75%;
     background-position: right;
     opacity: 0.8;
   }
   .text {
-    height: 80%;
+    height: 50%;
     gap: 10px;
   }
   .lines {
@@ -1554,16 +1558,17 @@ body {
   .lines h3 {
     font-size: 13px;
     line-height: 20px;
+    color: #000000;
   }
   .lines button {
     margin-top: 10px;
     height: 15%;
-    width: 56%;
+    width: 25%;
     padding: 0;
   }
   .grid {
     height: 85%;
-    width: 73%;
+    width: 95%;
   }
   
   .grid1img {
@@ -1578,7 +1583,7 @@ body {
   }
   
   .content {
-    width: 70%;
+    width: 95%;
     height: 5%;
   }
 
@@ -1590,19 +1595,19 @@ body {
   }
   .imgbanner {
     flex-direction: column;
-    width: 70%;
+    width: 95%;
     gap: 2px;
   }
   .imgbanner1 p {
     font-size: 13px;
   }
   .backgroundproduct {
-    width: 80%;
+    width: 95%;
   }
   .productimg {
     width: 100%;
     gap: 10px;
-    grid-template-columns: 130px 130px;
+    grid-template-columns: 160px 160px;
     grid-template-rows: 220px 220px 220px;
   }
   .productimg1 {
@@ -1625,7 +1630,7 @@ body {
   .text1 {
     position: absolute;
     top: 18px;
-    right: 26px;
+    right: 32px;
     width: 85%;
   }
   .text1 h4
@@ -1640,7 +1645,7 @@ body {
   }
   .text1 button
   {
-    width: 55%;
+    width: 30%;
   }
   .labeldiv input {
     height: 25px;
@@ -1656,7 +1661,7 @@ body {
   }
   .bentobackground {
     height: auto;
-    width: 75%;
+    width: 95%;
     margin-top: 30px;
   }
   .subbento {
@@ -1665,16 +1670,16 @@ body {
   }
 
   .bentoimg1 {
-    width: 100%;
+    width: 95%;
   }
   .bentoimg2 {
-    width: 100%;
+    width: 95%;
   }
   .bentoimg3 {
-    width: 100%;
+    width: 95%;
   }
   .bentoimg4 {
-    width: 100%;
+    width: 95%;
   }
   .words {
     top: 10px;
@@ -1683,7 +1688,7 @@ body {
     width: 45%;
   }
   .container {
-    width: 75%;
+    width: 90%;
     height: 100%;
   }
   .containerimg {
@@ -1714,7 +1719,7 @@ body {
     display: block;
   }
   .about {
-    width: 70%;
+    width: 85%;
     height: 100%;
     margin-left: 10px;
   }
@@ -1739,7 +1744,7 @@ body {
     width: 96%;
   }
   .collection-bg {
-    width: 66%;
+    width: 90%;
   }
   .collection-text h4 {
     font-size: 16px;
@@ -1748,12 +1753,13 @@ body {
     font-size: 28px;
   }
   .collection-img {
-    width: 70%;
+    width: 100%;
     height: 32%;
   }
   .subcollection-img {
-    grid-template-columns: 120px 120px;
+    grid-template-columns: 160px 160px;
     gap: 10px;
+    justify-content: start;
   }
   .collection-icon-sale {
     width: 75%;
@@ -1768,7 +1774,7 @@ body {
  
   .columnbanner {
     height: 35%;
-    width: 73%;
+    width: 95%;
   }
   .subcolumnbanner {
     display: flex;
@@ -1779,7 +1785,7 @@ body {
     flex-direction: column;
     gap: 0;
     /* margin-right: 100px; */
-    align-items: flex-start;
+    align-items: center;
     border: none;
   }
   .column-div-img {
@@ -1790,7 +1796,7 @@ body {
     height: 30px;
   }
   .blog {
-    width: 70%;
+    width: 95%;
   }
   .sub-blog h4 {
     font-size: 16px;
@@ -1799,10 +1805,10 @@ body {
     font-size: 24px;
   }
   .grid-background {
-    width: 75%;
+    width: 95%;
   }
   .subgrid-bg {
-    grid-template-columns: 260px;
+    grid-template-columns: 350px;
   }
   .subgrid-img {
     width: 90%;
@@ -1814,7 +1820,7 @@ body {
   }
    .footer {
     height: 80%;
-    width: 66%;
+    width: 87%;
     margin-top: 20px;
   }
   .footer-content {
