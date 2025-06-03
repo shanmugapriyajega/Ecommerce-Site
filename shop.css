@@ -1720,6 +1720,10 @@ body {
     margin-left: 0;
     margin-top: 0;
   }
+  .column-content
+  {
+    height: 50%;
+  }
   .aboutpara {
     display: none;
   }
@@ -1741,10 +1745,10 @@ body {
     margin-top: 20px;
     margin-left: 20px;
   }
-  .sub-img img {
+  /* .sub-img img {
     width: 76%;
     height: 79%;
-  }
+  } */
   .mark-para {
     margin-left: 10px;
   }
@@ -1766,9 +1770,10 @@ body {
     height: 32%;
   }
   .subcollection-img {
-    grid-template-columns: 125px 125px;
+    grid-template-columns: 135px 135px;
     gap: 10px;
-    justify-content: start;
+    width: 100%;
+    /* justify-content: start; */
   }
   .collection-icon-sale {
     width: 75%;
@@ -1783,7 +1788,7 @@ body {
  
   .columnbanner {
     height: 35%;
-    width: 70%;
+    width: 100%;
   }
   .subcolumnbanner {
     display: flex;
