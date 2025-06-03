@@ -1667,12 +1667,12 @@ body {
   }
   .bentobackground {
     height: auto;
-    width: 62%;
+    width: 100%;
     margin-top: 30px;
     /* margin-left: 20px; */
   }
   .subbento {
-    width: 90%;
+    /* width: 90%; */
     display: flex;
     flex-direction: column;
   }
@@ -1696,7 +1696,7 @@ body {
     width: 45%;
   }
   .container {
-    width: 62%;
+    width: 100%;
     height: 100%;
   }
   .containerimg {
@@ -1727,7 +1727,7 @@ body {
     display: block;
   }
   .about {
-    width: 62%;
+    width: 100%;
     height: 85%;
     margin-left: 10px;
   }
@@ -1753,7 +1753,7 @@ body {
     width: 90%;
   }
   .collection-bg {
-    width: 62%;
+    width: 100%;
   }
   .collection-text h4 {
     font-size: 16px;
@@ -1762,7 +1762,7 @@ body {
     font-size: 28px;
   }
   .collection-img {
-    width: 62%;
+    width: 100%;
     height: 32%;
   }
   .subcollection-img {
