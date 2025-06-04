@@ -1778,7 +1778,12 @@ body {
   }
   .collection-bg {
     width: 100%;
+    height: auto;
     margin-top: 20px;
+  }
+  .subcollection-bg
+  {
+    height: auto;
   }
   .collection-text h4 {
     font-size: 16px;
@@ -1809,10 +1814,11 @@ body {
   }
 
   .columnbanner {
-    height: 45%;
+    height: auto;
     width: 100%;
   }
   .subcolumnbanner {
+     height: auto;
     display: flex;
     flex-direction: column;
     row-gap: 10px;
@@ -1847,9 +1853,10 @@ body {
   }
   .grid-background {
     width: 100%;
-    height: 33%;
+    height: auto;
   }
   .subgrid-bg {
+    height: auto;
     grid-template-columns: 350px;
   }
   .subgrid-img {
@@ -1861,9 +1868,13 @@ body {
     margin-top: 0;
   }
   .footer {
-    height: 65%;
+    height: auto;
     width: 100%;
     margin-top: 20px;
+  }
+  .subfooter
+  {
+    height: auto;
   }
   .footer-content {
     flex-direction: column;
