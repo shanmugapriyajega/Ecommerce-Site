@@ -1575,31 +1575,31 @@ body {
     padding: 0;
   }
   .grid {
-    height: 85%;
+    height: auto;
     width: 100%;
     margin-top: 30px;
   }
 
   .grid1img {
-    height: 95%;
+    height:auto;
     width: 100%;
   }
-  .grid1img img {
+  /* .grid1img img {
     height: 250px;
     width: 100%;
-  }
+  } */
   .mbl-none {
     display: none;
   }
 
   .content {
     width: 100%;
-    height: 8%;
+    height: auto;
     margin-bottom: 10px;
   }
   .subcontent {
     margin-top: 10px;
-    height: 100%;
+    height: auto;
   }
   .subtext h4 {
     font-size: 16px;
@@ -1704,11 +1704,11 @@ body {
   }
   .container {
     width: 100%;
-    height: 100%;
+    height: auto;
     margin-top: 25px;
   }
   .subcontainer {
-    height: 100%;
+    height: auto;
     width: 85%;
   }
   .title {
