@@ -1486,9 +1486,15 @@ body {
   ::-webkit-scrollbar {
     display: none;
   }
+  * {
+    overflow-x: hidden;
+  }
+  body {
+    overflow-x: hidden;
+  }
   .socialmedia {
     width: 100%;
-    height: 5%;
+    height: 7%;
     /* display: flex; */
   }
   .icons {
@@ -1497,17 +1503,18 @@ body {
   }
   .first {
     width: 100%;
-    height: 2%;
-    font-size: 10px;
+    height: 50%;
+    font-size: 15px;
     display: flex;
     align-items: center;
+    justify-content: space-evenly;
     gap: 10px;
   }
   .second {
     width: 100%;
-    height: 2%;
-    font-size: 10px;
-    justify-content: flex-start;
+    height: 50%;
+    font-size: 15px;
+    justify-content: center;
   }
 
   .img img {
@@ -1516,7 +1523,9 @@ body {
   }
   .navbar {
     width: 100%;
+    height: 9%;
     justify-content: flex-start;
+    margin-top: 0;
   }
   .subnavbar {
     width: 100%;
@@ -1536,6 +1545,7 @@ body {
     background-size: 145% 75%;
     background-position: right;
     opacity: 0.8;
+    margin-top: 0;
   }
   .text {
     height: 50%;
@@ -1561,17 +1571,18 @@ body {
   .lines button {
     margin-top: 10px;
     height: 15%;
-    width: 35%;
+    width: 25%;
     padding: 0;
   }
   .grid {
     height: 85%;
     width: 100%;
+    margin-top: 30px;
   }
 
   .grid1img {
     height: 95%;
-    width: 93%;
+    width: 100%;
   }
   .grid1img img {
     height: 250px;
@@ -1583,11 +1594,12 @@ body {
 
   .content {
     width: 100%;
-    height: 5%;
+    height: 8%;
     margin-bottom: 10px;
   }
   .subcontent {
     margin-top: 10px;
+    height: 100%;
   }
   .subtext h4 {
     font-size: 16px;
@@ -1599,6 +1611,7 @@ body {
     flex-direction: column;
     width: 100%;
     gap: 2px;
+    margin-top: 10px;
   }
   .imgbanner1 p {
     font-size: 13px;
@@ -1609,11 +1622,11 @@ body {
   .productimg {
     width: 100%;
     gap: 10px;
-    grid-template-columns: 150px 150px;
+    grid-template-columns: 170px 170px;
     grid-template-rows: 250px 250px 250px;
   }
   .productimg1 {
-    width: 90%;
+    width: 100%;
     /* margin-left: 10px; */
   }
   .sale {
@@ -1645,7 +1658,7 @@ body {
     font-size: 28px;
   }
   .text1 button {
-    width: 40%;
+    width: 27%;
   }
   .labeldiv input {
     height: 25px;
@@ -1668,6 +1681,7 @@ body {
     /* width: 90%; */
     display: flex;
     flex-direction: column;
+    gap: 20px;
   }
 
   .bentoimg1 {
@@ -1686,15 +1700,19 @@ body {
     top: 10px;
   }
   .words button {
-    width: 45%;
+    width: 30%;
   }
   .container {
     width: 100%;
     height: 100%;
-    margin-top: 20px;
+    margin-top: 25px;
   }
   .subcontainer {
     height: 100%;
+    width: 85%;
+  }
+  .title {
+    width: 100%;
   }
   .containerimg {
     height: 70%;
@@ -1717,9 +1735,9 @@ body {
     margin-left: 0;
     margin-top: 0;
   }
-  .column-content
-  {
-    height: 45%;
+  .column-content {
+    height: 50%;
+    width: 100%;
   }
   .aboutpara {
     display: none;
@@ -1729,21 +1747,25 @@ body {
   }
   .about {
     width: 100%;
-    height: 80%;
-    margin-left: 10px;
+    height: auto;
+    /* margin-left: 10px; */
+  }
+  .about-mark p
+  {
+    width: 100%;
   }
   .sub-content {
-    width: 100%;
+    width: 85%;
     height: 100%;
     /* margin-top: 0; */
   }
   .sub-img {
-    height: 30%;
+    height: 50%;
     margin-top: 20px;
-    margin-left: 20px;
+    /* margin-left: 20px; */
   }
   .sub-img img {
-    width: 68%;
+    width: 100%;
     height: 94%;
     /* margin-top: 20px; */
   }
@@ -1751,11 +1773,12 @@ body {
     margin-left: 10px;
   }
   .sub-text {
-    height: 65%;
-    width: 90%;
+    height: 60%;
+    width: 100%;
   }
   .collection-bg {
     width: 100%;
+    margin-top: 20px;
   }
   .collection-text h4 {
     font-size: 16px;
@@ -1768,9 +1791,10 @@ body {
     height: 35%;
   }
   .subcollection-img {
-    grid-template-columns: 135px 135px;
+    grid-template-columns: repeat(2,1fr);
     gap: 10px;
-    width: 100%;
+    width: 85%;
+
     /* justify-content: start; */
   }
   .collection-icon-sale {
@@ -1785,7 +1809,7 @@ body {
   }
 
   .columnbanner {
-    height: 35%;
+    height: 45%;
     width: 100%;
   }
   .subcolumnbanner {
@@ -1803,12 +1827,17 @@ body {
   .column-div-img {
     align-items: center;
   }
-  .column-div-img img {
+  .column-div-content h4
+  {
+    text-align: center;
+  }
+  /* .column-div-img img {
     width: 30px;
     height: 30px;
-  }
+  } */
   .blog {
     width: 100%;
+    height: 15%;
   }
   .sub-blog h4 {
     font-size: 16px;
@@ -1818,12 +1847,13 @@ body {
   }
   .grid-background {
     width: 100%;
+    height: 33%;
   }
   .subgrid-bg {
     grid-template-columns: 350px;
   }
   .subgrid-img {
-    width: 70%;
+    width: 100%;
     height: 100%;
     /* margin-left: 10px; */
   }
@@ -1831,7 +1861,7 @@ body {
     margin-top: 0;
   }
   .footer {
-    height: 80%;
+    height: 65%;
     width: 100%;
     margin-top: 20px;
   }
@@ -1841,12 +1871,16 @@ body {
   }
   .googleplay {
     width: 95%;
+    height: 70%;
   }
   .googleplay h4 {
     line-height: normal;
+    margin-bottom: 10px;
   }
   .googleplay p {
     line-height: normal;
+    margin-bottom: 10px;
+    width: 100%;
   }
   .googleplay input {
     margin-top: 10px;
@@ -1857,21 +1891,24 @@ body {
   }
   .div2 {
     width: 95%;
+    height: 70%;
     margin-top: 10px;
   }
   .div2 p {
     line-height: normal;
-    margin-bottom: 0;
+    margin-bottom: 10px;
   }
   .div2 img {
-    margin-bottom: 0;
+    margin-bottom: 10px;
   }
   .footer-icon {
     gap: 5px;
+    height: 15%;
     margin-bottom: 10px;
   }
   .contact {
-    width: 95%;
+    width: 100%;
+    height: 70%;
     margin-bottom: 20px;
   }
   .mbl {
