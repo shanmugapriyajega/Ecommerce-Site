@@ -113,7 +113,7 @@ body {
 }
 .backgroundimg {
   background-image: url("./slider_banner_2_c429b1bd-e433-4f70-b793-7b47d6117759_1512x\ \(1\).png");
-  width: 98%;
+  width: 100%;
   height: 80%;
   padding-right: 20px;
   display: flex;
@@ -121,6 +121,7 @@ body {
   justify-content: center;
   margin-top: 20px;
 }
+
 .text {
   width: 85%;
   height: 100%;
@@ -168,7 +169,7 @@ body {
   padding: 20px;
   border-style: none;
   color: #ffffff;
-  width: 30%;
+  width: 20%;
 }
 .lines button:hover {
   background-color: #000000;
@@ -196,6 +197,11 @@ body {
   width: 100%;
   height: 100%;
   overflow: hidden !important;
+}
+.grid1img img
+{
+  width: 100%;
+  height: 100%;
 }
 .grid1img {
   width: 100%;
@@ -254,8 +260,8 @@ body {
   text-align: center;
   font-family: "Roboto", sans-serif;
   font-size: 14px;
-  width: 40%;
-  height: 30px;
+  width: 25%;
+  height: 40px;
   border-style: none;
   color: #ffffff;
   display: flex;
@@ -345,8 +351,8 @@ body {
   height: 100%;
   /* background-color: #646464; */
   display: grid;
-  grid-template-columns: 200px 200px 200px 200px 200px;
-  grid-template-rows: 320px 320px;
+  grid-template-columns: 255px 255px 255px 255px 255px;
+  grid-template-rows: 400px 400px;
   gap: 30px;
   align-items: center;
   justify-content: center;
@@ -362,15 +368,14 @@ body {
 .productimg-icon {
   width: 95%;
   height: 13%;
+  font-size: 22px;
   display: flex;
-  /* flex-direction: column; */
-  box-shadow: 10px;
   border-radius: 50px;
   align-items: center;
   justify-content: center;
-  gap: 15px;
+  gap: 25px;
   position: absolute;
-  top: 70px;
+  top: 90px;
   left: 5px;
   background-color: white;
   /* display: none; */
@@ -392,10 +397,11 @@ body {
   border: 1px solid #e5e5e5;
   border-radius: 50px;
   align-items: center;
+  font-size: 22px;
   justify-content: center;
-  gap: 15px;
+  gap: 25px;
   position: absolute;
-  top: 70px;
+  top: 90px;
   left: 5px;
   background-color: white;
   opacity: 0;
@@ -540,7 +546,7 @@ body {
   /* background-color: #999999; */
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: 400px 100px 300px;
+  grid-template-rows: 400px 100px 400px;
   gap: 30px;
 }
 .bentoimg1 {
@@ -627,8 +633,8 @@ body {
   text-align: center;
   font-family: "Roboto", sans-serif;
   font-size: 14px;
-  width: 30%;
-  height: 30px;
+  width: 19%;
+  height: 44px;
   border-style: none;
   color: #ffffff;
   display: flex;
@@ -679,13 +685,18 @@ body {
   justify-content: space-between;
   margin: 10px;
 }
+.subcontainer1
+{
+  width: 100%;
+  /* height: 100%; */
+}
 .title {
   width: 75%;
   height: 90%;
   /* background-color: #c6f798; */
   border: 1px solid #e5e5e5;
   display: block;
-  margin: 10px;
+  /* margin: 10px; */
 }
 
 .title h4 {
@@ -943,14 +954,14 @@ body {
   height: 100%;
   /* background-color: rgb(139, 212, 56); */
   display: grid;
-  grid-template-columns: 250px 250px 250px 250px;
+  grid-template-columns: 330px 330px 330px 330px;
   column-gap: 20px;
   align-items: center;
   justify-content: center;
 }
 .grid-picture {
   width: 100%;
-  height: 80%;
+  height: 86%;
   display: flex;
   flex-direction: column;
   border: 0.5px solid #e5e5e5;
@@ -1006,7 +1017,7 @@ body {
 .sale {
   background-color: #ff4545;
   color: #ffffff;
-  width: 20%;
+  width: 12%;
   padding: 3px;
   border-radius: 6px;
   font-size: 12px;
@@ -1176,6 +1187,7 @@ body {
   justify-content: center;
 }
 .googleplay h4 {
+  color: #000000;
   font-size: 18px;
   font-family: "Roboto", sans-serif;
   font-weight: 400;
@@ -1187,6 +1199,7 @@ body {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   line-height: 24px;
+   letter-spacing: 0.5px;
   color: #6f6f6f;
 }
 .googleplay input {
@@ -1195,9 +1208,9 @@ body {
   margin-top: 20px;
 }
 .googleplay img {
-  width: 60%;
+  width: 50%;
   height: 20%;
-  margin-top: 20px;
+  /* margin-top: 20px; */
 }
 .div2 {
   height: 100%;
