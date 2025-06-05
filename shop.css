@@ -1523,12 +1523,13 @@ body {
   }
   .navbar {
     width: 100%;
-    height: 9%;
+    height: auto;
     justify-content: flex-start;
     margin-top: 0;
   }
   .subnavbar {
     width: 100%;
+    height: auto;
   }
   .navicons {
     display: none;
@@ -1623,11 +1624,24 @@ body {
     width: 100%;
     gap: 10px;
     grid-template-columns: 170px 170px;
-    grid-template-rows: 250px 250px 250px;
+    grid-template-rows: 270px 270px 270px;
   }
   .productimg1 {
     width: 100%;
     /* margin-left: 10px; */
+  }
+  .productimg1 img
+  {
+    width: 180px;
+    height: 150px;
+  }
+  .producttext1
+  {
+    height: 35%;
+  }
+  .producttext1 h6
+  {
+    margin-top: 0;
   }
   .sale {
     width: 25%;
@@ -1635,13 +1649,13 @@ body {
   }
   .productimg-icon {
     width: 90%;
-    gap: 10px;
-    font-size: 10px;
+    gap: 20px;
+    font-size: 13px;
   }
   .productimg-icon-sale {
     width: 90%;
-    gap: 10px;
-    font-size: 10px;
+    gap: 20px;
+    font-size: 13px;
   }
   .text1 {
     position: absolute;
@@ -1661,12 +1675,18 @@ body {
     width: 27%;
   }
   .labeldiv input {
-    height: 25px;
-    width: 30px;
+    height: 40px;
+    width: 43px;
+    margin-top: 5px;
   }
   .labeldiv button {
-    width: 40px;
-    height: 25px;
+    width: 42px;
+    height: 35px;
+    margin-top: 5px;
+  }
+  .selecttag
+  {
+    display: none;
   }
   .grid-text {
     bottom: 10px;
@@ -1803,16 +1823,19 @@ body {
     /* justify-content: start; */
   }
   .collection-icon-sale {
-    width: 75%;
-    gap: 8px;
-    font-size: 10px;
+    width: 90%;
+    gap: 20px;
+    font-size: 15px;
     top: 70px;
-    left: 10px;
+    left: 5px;
   }
   .mblview-none {
     display: none;
   }
-
+.grid-picture
+{
+  height: 95%;
+}
   .columnbanner {
     height: auto;
     width: 100%;
