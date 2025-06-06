@@ -1636,7 +1636,7 @@ body {
   .productimg {
     width: 100%;
     gap: 10px;
-    grid-template-columns: 160px 160px;
+    grid-template-columns: 150px 150px;
     grid-template-rows: 270px 270px 270px;
   }
   .productimg1 {
@@ -1674,7 +1674,7 @@ body {
   }
   .text1 {
     position: absolute;
-    top: 18px;
+    top: 11px;
     right: 6px;
     width: 95%;
   }
