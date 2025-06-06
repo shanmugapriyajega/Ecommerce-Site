@@ -1584,8 +1584,8 @@ body {
   }
   .lines button {
     margin-top: 10px;
-    height: 15%;
-    width: 25%;
+    height: 19%;
+    width: 28%;
     padding: 0;
   }
   .grid {
@@ -1636,7 +1636,7 @@ body {
   .productimg {
     width: 100%;
     gap: 10px;
-    grid-template-columns: 170px 170px;
+    grid-template-columns: 160px 160px;
     grid-template-rows: 270px 270px 270px;
   }
   .productimg1 {
@@ -1685,7 +1685,7 @@ body {
     font-size: 28px;
   }
   .text1 button {
-    width: 27%;
+    width: 32%;
   }
   .labeldiv input {
     height: 40px;
@@ -1733,7 +1733,7 @@ body {
     top: 10px;
   }
   .words button {
-    width: 30%;
+    width: 35%;
   }
   .container {
     width: 100%;
@@ -1826,7 +1826,7 @@ body {
   }
   .collection-img {
     width: 100%;
-    height: 35%;
+    height: 38%;
   }
   .subcollection-img {
     grid-template-columns: repeat(2,1fr);
