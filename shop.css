@@ -1664,11 +1664,13 @@ body {
     width: 90%;
     gap: 20px;
     font-size: 13px;
+    top: 70px;
   }
   .productimg-icon-sale {
     width: 90%;
     gap: 20px;
     font-size: 13px;
+    top: 70px;
   }
   .text1 {
     position: absolute;
